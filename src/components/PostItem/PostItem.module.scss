@@ -1,0 +1,10 @@
+.postItem {
+    cursor: pointer;
+    padding: 20px 15px;
+    border: 1px solid #d3d3d3;
+    border-radius: 15px;
+    transition: background-color .3s ease-in-out;
+    &:hover {
+      background-color: #e7ffea;
+    }
+}

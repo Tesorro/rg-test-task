@@ -1,0 +1,13 @@
+.pagination {
+  max-width: 400px;
+  margin: 0 auto 20px;
+  text-align: end;
+  font-size: 0.8em;
+  & button + button {
+    margin-left: 5px;
+  }
+}
+
+.pageNum {
+  cursor: pointer;
+}

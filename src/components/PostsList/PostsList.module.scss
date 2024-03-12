@@ -1,0 +1,7 @@
+.postList {
+    max-width: 400px;
+    margin: 40px auto 40px;
+    & li + li {
+        margin-top: 10px;
+    }
+}
